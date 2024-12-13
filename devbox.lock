@@ -1,0 +1,167 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "gradle@latest": {
+      "last_modified": "2024-11-16T04:25:12Z",
+      "plugin_version": "0.0.1",
+      "resolved": "github:NixOS/nixpkgs/34a626458d686f1b58139620a8b2793e9e123bba#gradle",
+      "source": "devbox-search",
+      "version": "8.10.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/39z5fqj28d8y138zidlpp57cz5r12f8a-gradle-8.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/39z5fqj28d8y138zidlpp57cz5r12f8a-gradle-8.10.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rj71hzlmgfy6fllv3k0mvsccy9m1gdvl-gradle-8.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/rj71hzlmgfy6fllv3k0mvsccy9m1gdvl-gradle-8.10.2"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/f028d3aws1mcmrbk7qjw0ycgcyl3y3qm-gradle-8.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/f028d3aws1mcmrbk7qjw0ycgcyl3y3qm-gradle-8.10.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0ak8ca2wrsciqjra0pff9bvx9hpsgg6v-gradle-8.10.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0ak8ca2wrsciqjra0pff9bvx9hpsgg6v-gradle-8.10.2"
+        }
+      }
+    },
+    "kotlin@2.0.0": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#kotlin",
+      "source": "devbox-search",
+      "version": "2.0.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/8dnzjlkn15n465b50xfazc9dj02ad4jy-kotlin-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/8dnzjlkn15n465b50xfazc9dj02ad4jy-kotlin-2.0.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/03iwrbdlhnjs2n6rmsisbhvjm18j9as4-kotlin-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/03iwrbdlhnjs2n6rmsisbhvjm18j9as4-kotlin-2.0.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/0gj7ak3p9nw492vd5lhx7b2sapsim4a0-kotlin-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/0gj7ak3p9nw492vd5lhx7b2sapsim4a0-kotlin-2.0.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mwcczdwqlxai4k7nmcf8j3x7195yc44w-kotlin-2.0.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mwcczdwqlxai4k7nmcf8j3x7195yc44w-kotlin-2.0.0"
+        }
+      }
+    },
+    "ruby@latest": {
+      "last_modified": "2024-11-28T07:51:56Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/226216574ada4c3ecefcbbec41f39ce4655f78ef#ruby",
+      "source": "devbox-search",
+      "version": "3.3.5",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ybxkp0lgcahf92x6s66gyrwng2dznlzm-ruby-3.3.5",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/6dxnmf82c100pvigkh33hivgjx0mc0ba-ruby-3.3.5-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/ybxkp0lgcahf92x6s66gyrwng2dznlzm-ruby-3.3.5"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mzji9hr394jfyk7pddhnhbkikiygzq8j-ruby-3.3.5",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/c8sdf8vrgxk48s19m64356crkxghbwzi-ruby-3.3.5-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/mzji9hr394jfyk7pddhnhbkikiygzq8j-ruby-3.3.5"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gnhw9pk0kzw42bpgxca2w2mc0jdm2n32-ruby-3.3.5",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/593r91ig5yjkvzah4bkrhi0ig1fhgy00-ruby-3.3.5-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/gnhw9pk0kzw42bpgxca2w2mc0jdm2n32-ruby-3.3.5"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/vpaj7w9aif0gbfs2bfpvav8a2026wkam-ruby-3.3.5",
+              "default": true
+            },
+            {
+              "name": "devdoc",
+              "path": "/nix/store/l3lif51vx5z12v48c821djd2793chd6q-ruby-3.3.5-devdoc"
+            }
+          ],
+          "store_path": "/nix/store/vpaj7w9aif0gbfs2bfpvav8a2026wkam-ruby-3.3.5"
+        }
+      }
+    }
+  }
+}
