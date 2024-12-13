@@ -1,0 +1,50 @@
+GIT
+  remote: https://github.com/grpc/grpc.git
+  revision: 0498194240f55d7f4b12633ad01339fb690621bf
+  submodules: true
+  specs:
+    grpc (1.70.0.dev)
+      google-protobuf (>= 3.25, < 5.0)
+      googleapis-common-protos-types (~> 1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.8)
+    google-protobuf (4.29.1)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-x86-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.1-x86_64-linux)
+      bigdecimal
+      rake (>= 13)
+    googleapis-common-protos-types (1.16.0)
+      google-protobuf (>= 3.18, < 5.a)
+    grpc-tools (1.68.1)
+    rake (13.2.1)
+
+PLATFORMS
+  aarch64-linux
+  arm64-darwin
+  ruby
+  x86-linux
+  x86_64-darwin
+  x86_64-linux
+
+DEPENDENCIES
+  grpc!
+  grpc-tools (~> 1.68)
+
+BUNDLED WITH
+   2.5.16
