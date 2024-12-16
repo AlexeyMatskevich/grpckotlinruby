@@ -3,7 +3,8 @@
   "packages": [
     "kotlin@2.0.0",
     "gradle@latest",
-    "ruby@latest"
+    "ruby@latest",
+    "sqlite@latest"
   ],
   "shell": {
     "init_hook": [
