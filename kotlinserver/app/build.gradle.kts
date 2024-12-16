@@ -12,6 +12,7 @@ plugins {
 
     // Apply the application plugin to add support for building a CLI application in Java.
     application
+    id("com.google.protobuf") version "0.9.4"
 }
 
 repositories {
@@ -22,6 +23,13 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("io.grpc:grpc-kotlin-stub:1.4.1")
+    implementation("io.grpc:grpc-protobuf:1.69.0")
+    implementation("io.grpc:grpc-netty:1.69.0")
+    implementation("com.google.protobuf:protobuf-kotlin:4.29.1")
+    implementation("org.jetbrains.exposed:exposed-core:0.57.0")
+    implementation("org.jetbrains.exposed:exposed-jdbc:0.57.0")
+    implementation("org.xerial:sqlite-jdbc:3.47.1.0")
 }
 
 testing {
@@ -43,5 +51,30 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = "org.example.AppKt"
+    mainClass = "org.example.crossorm.AppKt"
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:4.29.1"
+    }
+    plugins {
+        create("grpc") {
+            artifact = "io.grpc:protoc-gen-grpc-java:1.69.0"
+        }
+        create("grpckt") {
+            artifact = "io.grpc:protoc-gen-grpc-kotlin:1.4.1:jdk8@jar"
+        }
+    }
+    generateProtoTasks {
+        all().forEach {
+            it.plugins {
+                create("grpc")
+                create("grpckt")
+            }
+            it.builtins {
+                create("kotlin")
+            }
+        }
+    }
 }

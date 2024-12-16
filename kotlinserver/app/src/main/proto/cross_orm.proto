@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package org.example.crossorm;
+option java_multiple_files = true;
+
+service CrossORM {
+    rpc GetUser(UserID) returns (User) {}
+    rpc CreateUser(NewUser) returns (User) {}
+}
+
+message NewUser {
+  string name = 1;
+  int32 age = 2;
+}
+
+message UserID {
+  int32 id = 1;
+}
+
+message User {
+  int32 id = 1;
+  string name = 2;
+  int32 age = 3;
+}
